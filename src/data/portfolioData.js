@@ -46,7 +46,7 @@ export const portfolioData = [
       "fab fa-symfony",
     ],
     source: "https://github.com/AlClDev",
-    info: "Site de recette de cuisine qui propose la création de recettes issues de la pop culture. Par exemple : Le diplomate de Rachel Green dans la série TV Friend. Site créé avec 3 personnes. Sur ce site j'ai réalisé les maquettes, la page d'accueil, le design général, et le formulaire de connexion avec une connexion via google.",
+    info: "Site de recette de cuisine qui propose la création de recettes issues de la pop culture. Par exemple : Le diplomate de Rachel Green dans la série TV Friends. Site créé avec 3 personnes. Sur ce site j'ai réalisé les maquettes, la page d'accueil, le design général, et le formulaire de connexion avec une connexion via google.",
     picture: "./media/geek2.png",
   },
   {
@@ -60,7 +60,7 @@ export const portfolioData = [
       "fab fa-symfony",
     ],
     source: "https://github.com/AlClDev",
-    info: "Site réalisé pour le gîte 'Hameau des Pierreux'. Site réalisé à 2 personnes. Je me suis occupé du maquettage, de la réalisationde la page d'accueil et du desgin général du site. J'ai aussi créé un système de commentaire, ainsi qu'une modération des commentaires par l'administrateur du site. Le site est hébergé et visible à cette adresse : https://hameaudespierreux.fr/",
+    info: "Site internet pour le gîte 'Hameau des Pierreux'. Site créé avec une autre personne. Je me suis occupé du maquettage, de la réalisation de la page d'accueil et du desgin général du site. J'ai aussi créé un système de commentaire, ainsi qu'une modération des commentaires par l'administrateur du site. Le site est hébergé et visible à cette adresse : https://hameaudespierreux.fr/",
     picture: "./media/hameau1.png",
   },
 ];
