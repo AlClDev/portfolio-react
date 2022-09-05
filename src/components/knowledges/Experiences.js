@@ -5,7 +5,7 @@ const Experiences = () => {
     <div className="experience">
       <h3>Expérience</h3>
       <div className="exp-1">
-        <h4>Développeur Web (statgiaire) - Hameau des Pierreux</h4>
+        <h4>Développeur Web (stagiaire) - Hameau des Pierreux</h4>
         <h5>2022</h5>
         <p>
           Conception d’un site internet pour le Hameau des Pierreux (Gîte).

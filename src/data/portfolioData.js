@@ -6,7 +6,7 @@ export const portfolioData = [
     languagesIcons: ["fab fa-css3-alt", "fab fa-js"],
     source: "https://github.com/AlClDev",
     info: "Réalisation du front-end d'une page de connexion avec formulaire. L'apparition des messages d'erreur est réalisé en javasacript.",
-    picture: "./media/js.png",
+    picture: "/media/js.png",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const portfolioData = [
     languagesIcons: ["fab fa-css3-alt", "fab fa-js", "fab fa-react"],
     source: "https://github.com/AlClDev",
     info: "Portfolio actuel realisé avec React Js",
-    picture: "./media/react1.png",
+    picture: "/media/react1.png",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const portfolioData = [
     languagesIcons: ["fab fa-css3-alt", "fab fa-javascript", "fab fa-angular"],
     source: "https://github.com/AlClDev",
     info: "Ancien portfolio réalisé avec Angular (Code source non-disponible sur Github)",
-    picture: "./media/angular2.png",
+    picture: "/media/angular2.png",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const portfolioData = [
     languagesIcons: ["fab fa-css3-alt", "fab fa-php", "fab fa-symfony"],
     source: "https://github.com/AlClDev",
     info: "Blog réalisé avec Symfony. Système d'inscritpion, formulaire de connexion, création d'un sytème de commentaire avec réponse.",
-    picture: "./media/batman1.png",
+    picture: "/media/batman1.png",
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ export const portfolioData = [
     ],
     source: "https://github.com/AlClDev",
     info: "Site de recette de cuisine qui propose la création de recettes issues de la pop culture. Par exemple : Le diplomate de Rachel Green dans la série TV Friends. Site créé avec 3 personnes. Sur ce site j'ai réalisé les maquettes, la page d'accueil, le design général, et le formulaire de connexion avec une connexion via google.",
-    picture: "./media/geek2.png",
+    picture: "/media/geek2.png",
   },
   {
     id: 6,
@@ -61,6 +61,6 @@ export const portfolioData = [
     ],
     source: "https://github.com/AlClDev",
     info: "Site internet pour le gîte 'Hameau des Pierreux'. Site créé avec une autre personne. Je me suis occupé du maquettage, de la réalisation de la page d'accueil et du desgin général du site. J'ai aussi créé un système de commentaire, ainsi qu'une modération des commentaires par l'administrateur du site. Le site est hébergé et visible à cette adresse : https://hameaudespierreux.fr/",
-    picture: "./media/hameau1.png",
+    picture: "/media/hameau1.png",
   },
 ];

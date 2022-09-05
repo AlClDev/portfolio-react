@@ -29,7 +29,11 @@ export default class Project extends Component {
           ))}
         </div>
         <h3>{name}</h3>
-        <img src={picture} alt="image" onClick={this.hanldePicture} />
+        <img
+          src={process.env.PUBLIC_URL + picture}
+          alt="image"
+          onClick={this.hanldePicture}
+        />
         <span className="infos" onClick={this.hanldeInfo}>
           <i className="fas fa-plus-circle"> Info</i>
         </span>
@@ -37,7 +41,7 @@ export default class Project extends Component {
         {this.state.showPicture && (
           <div className="showPictures">
             <div className="picturesContent">
-              <img src={picture} alt="image" />
+              <img src={process.env.PUBLIC_URL + picture} alt="image" />
               <div className="button return" onClick={this.hanldePicture}>
                 Retour
               </div>

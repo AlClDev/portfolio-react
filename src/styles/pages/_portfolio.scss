@@ -257,7 +257,7 @@
     }
   }
 }
-@media (max-width: 650px) and (min-width: 521px){
+@media (max-width: 670px) and (min-width: 521px){
   .portfolioContent {
     .project {
       width: 49% !important;
@@ -266,8 +266,15 @@
         font-size: 1rem;
       }
     }
+    .picturesContent{
+      position: relative;
+      top: 180px !important;
+      width: 90vw !important;
+    }
     .infosContent {
-      width: 100% !important;
+      position: relative;
+      top: 180px !important;
+      width: 90vw !important;
     }
   }
 }
@@ -284,6 +291,15 @@
 
       img {
         height: 100% !important;
+      }
+    }
+    .picturesContent{
+      width: 90vw !important;
+    }
+    .infosContent{
+      width: 90vw !important;
+      .sourceCode{
+        width: 100%;
       }
     }
   }

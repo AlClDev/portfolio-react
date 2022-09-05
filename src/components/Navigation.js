@@ -6,7 +6,10 @@ const Navigation = () => {
     <div className="sidebar">
       <div className="id">
         <div className="idContent">
-          <img src="./media/abstractFace.png" alt="profil-pic" />
+          <img
+            src={process.env.PUBLIC_URL + "/media/abstractFace.png"}
+            alt="profil-pic"
+          />
           <h3>Alban Clouzeau</h3>
         </div>
       </div>

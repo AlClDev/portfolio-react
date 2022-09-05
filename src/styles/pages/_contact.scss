@@ -2,6 +2,7 @@
   background: $color-3;
   border-radius: $borderRadius;
   width: 100%;
+  min-height: 95vh;
   overflow: hidden;
   display: grid;
   grid-template-columns: 1fr;
@@ -155,10 +156,27 @@
     }
   }
 }
+
+@media (max-width: 670px) and (min-width: 501px){
+  .contactContent {
+    .contactBox{
+      min-height: 70vh !important;
+      margin-bottom: 50px;
+    }
+  }
+}
+
 @media screen and (max-width: 500px){
+
   .contactContent {
     .contactBox {
       min-width: 100% !important;
+      min-height:40vh !important;
+      border: solid 2px $black ;
+    }
+    .socialNetwork{
+      padding-top: 20px;
+      padding-bottom: 20px;
     }
     span {
       font-size: .9rem !important;
